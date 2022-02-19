@@ -1,0 +1,169 @@
+/* FILE NAME: index.css
+Student Name: Vikas Dave
+Student id : 301111536
+Date: 05/02/2022 */
+html body {
+  padding-bottom: 100px;
+}
+/*LOGO CSS*/
+.logo {
+  width: 32px;
+  height: 32px;
+}
+/*MAIN PAGE CSS*/
+.hero-box {
+  max-width: 700px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto auto auto;
+  justify-content: center;
+}
+.hero-welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #6d83f2;
+  font-weight: bold;
+  font-size: 50px;
+}
+.hero-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #383838;
+  font-size: 80px;
+  font-weight: bolder;
+}
+.hero-mission {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: grey;
+  font-size: 20px;
+}
+.hero-about-btn {
+  margin: 50px auto auto auto;
+  width: 150px;
+}
+.hero-login-btn {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 150px;
+  margin: 50px auto auto auto;
+}
+/*ABOUT PAGE CSS*/
+.about-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.about-info {
+  margin-top: 50px;
+}
+.about-box {
+  margin-top: 50px;
+}
+.about-img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.about-img {
+  width: 300px;
+  height: 500px;
+}
+.about-name {
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  font-weight: 500;
+  margin: auto;
+  justify-content: center;
+}
+.about-me {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: justify;
+  margin-top: 20px;
+}
+.about-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+/*PROJECT PAGE CSS*/
+.project-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card {
+  margin: 20px;
+}
+.card-img-top {
+  height: 10rem;
+}
+/*SERVICES PAGE CSS*/
+.services-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+/*CONTACT PAGE CSS*/
+.contact-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.contact-email,
+.contact-textarea,
+.contact-tel,
+.contact-lastName,
+.contact-firstName {
+  max-width: 700px;
+  width: auto;
+  margin-top: 10px;
+}
+.contact-btn {
+  width: 200px;
+  margin: 10px auto auto auto;
+}
+.contact-details {
+  width: 700px;
+  margin-left: 290px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-details-text {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  width: auto;
+
+  font-size: larger;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  justify-content: flex-end;
+  text-align: center;
+}
+.login-box {
+  width: 200px;
+  margin: auto;
+}

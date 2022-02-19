@@ -1,0 +1,34 @@
+<!-- form handling -->
+<form
+  action="/dashboard/api/contact"
+  method="POST"
+  id="add_user"
+  class="m-auto w-400 d-flex mt-5 login-box"
+>
+  <div class="new_user">
+    <div class="form-group">
+      <label for="name" class="text-dark">Name</label>
+      <input type="hidden" name="id" value="" />
+      <input type="text" name="name" value="" placeholder="Mark Stoenis" />
+    </div>
+    <div class="form-group mt-3">
+      <label for="Email" class="text-dark">Email</label>
+      <input
+        type="text"
+        name="email"
+        value=""
+        placeholder="example@gmail.com"
+      />
+    </div>
+    <div class="form-group mt-3">
+      <label for="phone" class="text-dark">Phone</label>
+      <input type="phone" name="phone" value="" placeholder="999901234" />
+    </div>
+
+    <div class="form-group mt-3">
+      <button type="submit" class="btn btn-success text-dark update">
+        Save
+      </button>
+    </div>
+  </div>
+</form>
